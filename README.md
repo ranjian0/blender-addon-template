@@ -16,6 +16,6 @@ Proper python dev workflow for blender addons
 5. The following actions are available
 
     - `pdm build` - creates a zip archive of your addon (requires an existing git tag)
-    - `pdm test` - runs tests
+    - `pdm test` - runs tests using pytest
     - `pdm format` - runs black to fomat your source code (configurable in pyproject.toml)
     - `pdm check` - runs mypy for type checking (configurable in pyproject.toml)
