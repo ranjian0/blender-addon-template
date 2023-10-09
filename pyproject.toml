@@ -1,0 +1,21 @@
+[project]
+name = "blender-addon-template"
+version = "0.0.1"
+description = "A blender addon template for getting up and running quickly"
+authors = [
+    {name = "ranjian0", email = "karanjaichungwa@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+]
+lint = [
+    "black>=23.9.1",
+    "mypy>=1.5.1",
+    "fake-bpy-module-latest>=20231009",
+]
