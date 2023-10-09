@@ -29,6 +29,7 @@ build = [
 test = {cmd = "pytest tests"}
 build = {cmd = "python scripts/make-release.py"}
 lint = {cmd = "black src"}
+check = {cmd = "mypy src"}
 
 [tool.black]
 line-length = 88
