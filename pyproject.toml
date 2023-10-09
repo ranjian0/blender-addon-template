@@ -28,3 +28,7 @@ build = [
 [tool.pdm.scripts]
 test = {cmd = "pytest tests"}
 build = {cmd = "python scripts/make-release.py"}
+lint = {cmd = "black src"}
+
+[tool.black]
+line-length = 88

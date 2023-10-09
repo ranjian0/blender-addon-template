@@ -4,11 +4,12 @@ bl_info = {
     "author": "Author Name",
     "version": (0, 0, 1),
     "blender": (3, 3, 0),
-    "location": "View3D", # change me
+    "location": "View3D",  # change me
     "warning": "",
     "wiki_url": "",
-    "category": "Import-Export" # change me
+    "category": "Import-Export",  # change me
 }
+
 
 def register() -> None:
     pass
